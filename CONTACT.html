@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CONTACT US</title>
+    <!-- MAIN CSS FILE -->
+    <link rel="stylesheet" href="css/CONTACT.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <!-- BOXICON LINKS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <!-- REMIXCONS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+<!--NAVIGATION-->
+ <nav>
+    <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class='bx bx-menu'></i>
+      </label>   
+      <label class="logo">BAG<span>UIO</span></label>
+      <ul>
+      <li><a class="active" href="HOME.html">HOME</a></li>
+      <li><a href="GALLARY.html">GALLARY</a></li>
+      <li><a href="ABOUT.html">ABOUT US</a></li>
+      <li><a href="CONTACT.html">CONTACT US</a></li>
+      <li><a href="FOLLOW.html">FOLLOW US</a></li>
+      </ul>
+ </nav>
+<!--CONTACT US-->
+<div class="contact-container">
+  <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+    <div class="contact-left-title">
+      <h2>Contact Us</h2>
+      <hr>
+    </div>
+    <input type="hidden" name="access_key" value="480288d6-a1e1-429f-88be-016f14b215ac">
+        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required> 
+        <textarea name="message"  placeholder="Your Message" class="contact-inputs" required></textarea>
+        <button type="submit">Sumbit</button>
+  </form>
+  <div class="contact-right">
+    <img src="images/Contact-Us-Vector-Illustration-Part-02-1.jpg">
+  </div>
+</div>
+</body>
+</html>
